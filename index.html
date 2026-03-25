@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>QuickTools</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>QuickTools</h1>
+    <p>Simple tools</p>
+  </header>
+
+  <main>
+    <section class="tools">
+
+      <!-- Word Counter -->
+      <div class="card">
+        <h3>Word Counter</h3>
+        <textarea id="text-input" placeholder="Paste your text here..."></textarea>
+        <button onclick="countWords()">Count Words</button>
+        <p id="word-result"></p>
+      </div>
+
+      <!-- Password Generator -->
+      <div class="card">
+        <h3>Password Generator</h3>
+        <button onclick="generatePassword()">Generate Password</button>
+        <p id="password-result"></p>
+      </div>
+
+      <!-- Text Uppercase -->
+      <div class="card">
+        <h3>Uppercase Converter</h3>
+        <textarea id="upper-input" placeholder="Type something..."></textarea>
+        <button onclick="toUpper()">Convert</button>
+      </div>
+
+      <!-- Future Tool (placeholder) -->
+      <div class="card">
+        <h3>More tools coming...</h3>
+        <p>We’re adding more features soon.</p>
+      </div>
+
+    </section>
+  </main>
+
+  <footer>
+    <p>Built for speed ⚡</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
